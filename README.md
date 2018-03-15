@@ -17,7 +17,7 @@ extraneous setup tasks detract from the core objectives of the coursework.
 # Installing
 The `TutorialSupport` package can be installed via pip using the following command
 ```
-pip install -U https://github.com/MonashDataFluency/intro-to-tensorflow.git
+pip install -U git+https://github.com/MonashDataFluency/intro-to-tensorflow.git
 ```
 
 # The notebooks
