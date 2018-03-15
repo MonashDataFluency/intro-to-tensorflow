@@ -22,6 +22,11 @@ The `TutorialSupport` package can be installed via pip using the following comma
 pip install -U git+https://github.com/MonashDataFluency/intro-to-tensorflow.git
 ```
 
+GraphViz is also required and can be installed on Ubuntu systems using:
+```
+apt-get install graphviz
+```
+
 # The notebooks
 Two notebooks are provided in this repository:
 * `ML-Coursework_Complete.ipynb` - Contains full code that can be used as a reference
