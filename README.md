@@ -10,9 +10,11 @@ Further, `TutorialSupport` slightly modifies the `tf.Session()` and
 `tf.InteractiveSession()` classes to restrict CPU usage to only two CPUs by default,
 which allows the training to occur on shared infrastructure (e.g. JupyterHub) in a
 classroom whilst mitigating the potential for performance degradation incurred with
-students simultaneously training their models. The reason for modifying these classes
-over providing an appropriate TensorFlow configuration object is simply to ensure no
-extraneous setup tasks detract from the core objectives of the coursework.
+students simultaneously training their models. It also resets the numpy and TensorFlow
+random seeds to help keep the results as reproducible as possible. The reason for
+modifying these classes over providing an appropriate TensorFlow configuration object
+is simply to ensure no extraneous setup tasks detract from the core objectives of the
+coursework.
 
 # Installing
 The `TutorialSupport` package can be installed via pip using the following command
